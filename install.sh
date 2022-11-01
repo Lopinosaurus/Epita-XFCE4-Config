@@ -1,5 +1,3 @@
-MESSAGE=\""A computer is like air conditioning - it becomes useless when you open Windows.     -Linus Torvalds\""
-
 git clone https://github.com/anhsirk0/fetch-master-6000.git
 cd fetch-master-6000
 ./install.sh

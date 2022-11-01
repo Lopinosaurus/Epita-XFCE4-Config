@@ -1,2 +1,7 @@
 # Epita-XFCE4-Config
-My i3/XFCE4 Config at EPITA. Everything is made without superuser permissions.
+
+## Partition SUP : (Must be booted as None + i3)
+
+Run install_sup.sh :
+
+
