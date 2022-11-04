@@ -12,7 +12,7 @@ cp xfce4-desktop.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xm
 
 opam init
 eval $(opam env)
-opam switch create 4.08.0
-eval $(opam env --switch=4.08.0)
+opam switch create 4.14.0
+eval $(opam env --switch=4.14.0)
 opam install utop
 eval $(opam env)
