@@ -10,9 +10,3 @@ xrandr -s 1920x1080
 feh --bg-scale bg.jpg
 cp xfce4-desktop.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
-opam init
-eval $(opam env)
-opam switch create 4.14.0
-eval $(opam env --switch=4.14.0)
-opam install utop
-eval $(opam env)
