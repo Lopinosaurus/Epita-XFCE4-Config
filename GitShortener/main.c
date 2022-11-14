@@ -4,6 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
+#include "reverse.h"
+#include "getpath.h"
 
 
 int main(int argc, char** argv) {
@@ -60,6 +62,7 @@ int main(int argc, char** argv) {
 
                 char tagName[] = "git tag -a ";
                 int tagNum;
+                char* stringTag;
                 char commitMessage[] = "git commit -m ";
                 strcat(commitMessage, argv[2]);
                 system("git add -A");
@@ -68,7 +71,8 @@ int main(int argc, char** argv) {
                 tagNum = atoi(strtok(line, ""));
                 tagNum++;
                 strcat(tagName, "-");
-                strcat(tagName, itoa(tagNum));
+                itoa(tagNum, stringTag);
+                strcat(tagName, stringTag);
                 strcat(tagName, "-m ");
                 strcat(tagName, argv[2]);
                 system(tagName);
@@ -78,15 +82,3 @@ int main(int argc, char** argv) {
     }
     return 0;
 }
-
-
-char* getPath() {
-
-    char cwd[PATH_MAX];
-    if (getcwd(cwd, sizeof(cwd)) ==  NULL) {
-        errx(1, "Path is null");
-    }
-
-    return cwd;
-}
-
