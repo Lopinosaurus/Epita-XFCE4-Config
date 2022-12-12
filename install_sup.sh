@@ -1,6 +1,6 @@
 cp .bashrc ~/.bashrc
 
-mkdir ~/.config/xfce/terminal
+mkdir ~/.config/xfce4/terminal
 touch ~/.config/xfce4/terminal/terminalrc
 cp terminalrc ~/.config/xfce4/terminal/terminalrc
 feh --bg-scale bg.jpg
