@@ -1,8 +1,3 @@
-git clone https://github.com/anhsirk0/fetch-master-6000.git
-
-fetch-master-6000/./install.sh
-mv fm6000 fetch-master-6000/fm6000
-
 cp .bashrc ~/.bashrc
 
 cp terminalrc ~/.config/xfce4/terminal/terminalrc

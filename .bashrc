@@ -1,2 +1,12 @@
-~/afs/Epita-XFCE4-Config/fetch-master-6000/./fm6000 -l 80 -s "A computer is like air conditioning - it becomes useless when you open Windows.     -Linus Torvalds"
 feh --bg-scale ~/afs/Epita-XFCE4-Config/bg.jpg
+alias makecsharp="python3 ~/afs/Epita-XFCE4-Config/dotnet_proj.py"
+echo "
+               ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+    დოოოოოდ    │                                                                                            │
+    |     |    │  A computer is like air conditioning - it becomes useless when you open Windows.           │
+    |     |   ╭│  -Linus Torvalds                                                                           │
+    |-Ο Ο-|   ││                                                                                            │
+   Ͼ   ∪   Ͽ  │╰────────────────────────────────────────────────────────────────────────────────────────────╯
+    |     |   ╯
+   ˏ\`-.ŏ.-´
+"
