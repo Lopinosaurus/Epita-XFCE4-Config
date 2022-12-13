@@ -6,5 +6,14 @@ Run install_sup.sh :
 ```bash
 ./install_sup.sh
 ```
-Just press y, and re-open your terminal. You're good to go !
 
+After re-opening your terminal (to apply the .bashrc), this is how to create a C# TP Architecture : 
+
+- Download the skeleton and keep it zipped in your downloads
+Run makecsharp : 
+
+```bash
+makecsharp
+```
+
+It will ask for the name of the project, you MUST input the actual TP name. Then launch the .sln file with Jetbrains Rider.
