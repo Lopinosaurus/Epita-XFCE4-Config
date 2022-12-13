@@ -10,7 +10,7 @@ Run install_sup.sh :
 After re-opening your terminal (to apply the .bashrc), this is how to create a C# TP Architecture : 
 
 - Download the skeleton and keep it zipped in your downloads
-Run makecsharp : 
+- Run Makecsharp : 
 
 ```bash
 makecsharp
